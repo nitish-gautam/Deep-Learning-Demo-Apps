@@ -8,13 +8,14 @@ This Repositories is used to create a CNN model and demo applications which uses
 
 
 
-# SUMMARY -->  RESULTS
-1. MNIST10
-Confusion Matrix
-![Mnist-Img](https://user-images.githubusercontent.com/46977634/71091667-6e293d80-219d-11ea-9805-996e8e950b12.JPG)
+# FINAL RESULTS
 
-Prediction vs Actual 
+1. MNIST10
+
+Confusion Matrix and  Prediction vs Actual 
+![Mnist-Img](https://user-images.githubusercontent.com/46977634/71091667-6e293d80-219d-11ea-9805-996e8e950b12.JPG)
 ![Mnist-Predict_vx_Actual](https://user-images.githubusercontent.com/46977634/71091928-0aebdb00-219e-11ea-86dc-43e801678f36.JPG)
+
 
 2. LENET
 Confusion Matrix
