@@ -1,25 +1,68 @@
 # Deep-Learning-Demo-Apps
-This Repositories is used to create a CNN model and demo applications which uses CNN as a part of demo application.
+The intention here is to create a generic repositories which contain various practical applications in the field of deep learning.
 
-# DEMO APPLICATION PROJECTS
-1. IMAGE CLASSIFICATION (MNIST-10) USING CNNs - APPLICATION
-2. IMAGE CLASSIFICATION (CIFAR-10) USING CNNs - APPLICATION
-3. CLASSIFY GERMAN TRAFFIC SIGNS (LENET) USING CNNs - APPLICATION
+# PRACTICAL DEMO APPLICATION PROJECTS
+PROJECT 1. IMAGE CLASSIFICATION (MNIST-10) USING CNNs - APPLICATION
+PROJECT 2. IMAGE CLASSIFICATION (CIFAR-10) USING CNNs - APPLICATION
+PROJECT 3. CLASSIFY GERMAN TRAFFIC SIGNS (LENET) USING CNNs - APPLICATION
 
+# PROBELM STATEMENT : PROJECT 1. IMAGE CLASSIFICATION (MNIST-10) USING CNNs - APPLICATION
+The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. The digits have been size-normalized and centered in a fixed-size image. It is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. https://en.wikipedia.org/wiki/MNIST_database
+DATASET : http://yann.lecun.com/exdb/mnist/  
 
-
-# FINAL RESULTS
-
-1. MNIST10
-
-Confusion Matrix and  Prediction vs Actual 
+# RESULT AND SUMMARY: 
+(A) Model Summary, Confusion Matrix and  Prediction vs Actual reporting
 ![Mnist-Img](https://user-images.githubusercontent.com/46977634/71091667-6e293d80-219d-11ea-9805-996e8e950b12.JPG)
 ![Mnist-Predict_vx_Actual](https://user-images.githubusercontent.com/46977634/71091928-0aebdb00-219e-11ea-86dc-43e801678f36.JPG)
 
+-----------------------------------------------------------------------------------------------------------------------------------
+# PROBELM STATEMENT : PROJECT 2. IMAGE CLASSIFICATION (CIFAR-10) USING CNNs - APPLICATION
+CIFAR-10 is a dataset that consists of several images divided into the following 10 classes:
+#  0: Airplanes  1: Cars  2: Birds  3: Cats  4: Deer  5: Dogs  6: Frogs  7: Horses  8: Ships  9: Trucks 
 
-2. LENET
-Confusion Matrix
+The dataset stands for the Canadian Institute For Advanced Research (CIFAR) CIFAR-10 is widely used for machine learning and computer vision applications. The dataset consists of 50,000 32x32 color training images, labeled over 10 categories, and 10,000 test images.
+DATASET: https://www.kaggle.com/c/cifar-10/   or https://www.cs.toronto.edu/~kriz/cifar.html
+
+# RESULT AND SUMMARY: 
+(A) Model Summary, confusion Metrix and Prediction vs Actual reporting
+![image](https://user-images.githubusercontent.com/46977634/76878980-8298d700-686d-11ea-99f2-681bcb60261f.png)
+![image](https://user-images.githubusercontent.com/46977634/76879038-96443d80-686d-11ea-96f5-70ee8e122a16.png)
+![image](https://user-images.githubusercontent.com/46977634/76879096-a9efa400-686d-11ea-9130-4159b737c7b0.png)
+![image](https://user-images.githubusercontent.com/46977634/76879134-b673fc80-686d-11ea-819c-af9da65be07b.png)
+![Capture](https://user-images.githubusercontent.com/46977634/76879312-fdfa8880-686d-11ea-9959-bad7980f65bb.JPG) 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+# PROBELM STATEMENT : PROJECT 3. CLASSIFY GERMAN TRAFFIC SIGNS (LENET) USING CNNs - APPLICATION
+•	The dataset contains 43 different classes of images. Classes are as listed below:
+•	( 0, b'Speed limit (20km/h)') ( 1, b'Speed limit (30km/h)')
+•	( 2, b'Speed limit (50km/h)') ( 3, b'Speed limit (60km/h)')
+•	( 4, b'Speed limit (70km/h)') ( 5, b'Speed limit (80km/h)')
+•	( 6, b'End of speed limit (80km/h)') ( 7, b'Speed limit (100km/h)')
+•	( 8, b'Speed limit (120km/h)') ( 9, b'No passing')
+•	(10, b'No passing for vehicles over 3.5 metric tons')
+•	(11, b'Right-of-way at the next intersection') (12, b'Priority road')
+•	(13, b'Yield') (14, b'Stop') (15, b'No vehicles')
+•	(16, b'Vehicles over 3.5 metric tons prohibited') (17, b'No entry')
+•	(18, b'General caution') (19, b'Dangerous curve to the left')
+•	(20, b'Dangerous curve to the right') (21, b'Double curve')
+•	(22, b'Bumpy road') (23, b'Slippery road')
+•	(24, b'Road narrows on the right') (25, b'Road work')
+•	(26, b'Traffic signals') (27, b'Pedestrians') (28, b'Children crossing')
+•	(29, b'Bicycles crossing') (30, b'Beware of ice/snow')
+•	(31, b'Wild animals crossing')
+•	(32, b'End of all speed and passing limits') (33, b'Turn right ahead')
+•	(34, b'Turn left ahead') (35, b'Ahead only') (36, b'Go straight or right')
+•	(37, b'Go straight or left') (38, b'Keep right') (39, b'Keep left')
+•	(40, b'Roundabout mandatory') (41, b'End of no passing')
+•	(42, b'End of no passing by vehicles over 3.5 metric tons')
+The network used is called Le-Net that was presented by Yann LeCun http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
+
+# RESULT AND SUMMARY: 
+(A) Model Summary, confusion Metrix and Prediction vs Actual reporting
+![image](https://user-images.githubusercontent.com/46977634/76879633-6cd7e180-686e-11ea-966d-b2a8a7f47d45.png)
+![image](https://user-images.githubusercontent.com/46977634/76879588-5cc00200-686e-11ea-8476-409e422595f7.png)
+![image](https://user-images.githubusercontent.com/46977634/76879502-40bc6080-686e-11ea-979d-fc800bbc3e2b.png)
+
+
+
 ![LENET-CM-Img](https://user-images.githubusercontent.com/46977634/71091924-09221780-219e-11ea-8515-1ca59788d7a9.JPG)
-
-
-3. CIFAR10
