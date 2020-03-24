@@ -5,9 +5,10 @@ The intention here is to create a generic repositories which contain various pra
 PROJECT 1. IMAGE CLASSIFICATION (MNIST-10) USING CNNs - APPLICATION
 PROJECT 2. IMAGE CLASSIFICATION (CIFAR-10) USING CNNs - APPLICATION
 PROJECT 3. CLASSIFY GERMAN TRAFFIC SIGNS (LENET) USING CNNs - APPLICATION
+PROJECT 4. CLASSIFY FASHION IMAGES(FASHION-MNIST) USING CNNs - APPLICATION
 
 -----------------------------------------------------------------------------------------------------------------------------------
-# PROBELM STATEMENT : PROJECT 1. IMAGE CLASSIFICATION (MNIST-10) USING CNNs - APPLICATION
+# PROJECT 1. IMAGE CLASSIFICATION (MNIST-10) USING CNNs - APPLICATION
 The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. The digits have been size-normalized and centered in a fixed-size image. It is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. https://en.wikipedia.org/wiki/MNIST_database
 DATASET : http://yann.lecun.com/exdb/mnist/  
 
@@ -17,7 +18,7 @@ DATASET : http://yann.lecun.com/exdb/mnist/
 ![Mnist-Predict_vx_Actual](https://user-images.githubusercontent.com/46977634/71091928-0aebdb00-219e-11ea-86dc-43e801678f36.JPG)
 
 -----------------------------------------------------------------------------------------------------------------------------------
-# PROBELM STATEMENT : PROJECT 2. IMAGE CLASSIFICATION (CIFAR-10) USING CNNs - APPLICATION
+# PROJECT 2. IMAGE CLASSIFICATION (CIFAR-10) USING CNNs - APPLICATION
 CIFAR-10 is a dataset that consists of several images divided into the following 10 classes:
 0: Airplanes  1: Cars  2: Birds  3: Cats  4: Deer  5: Dogs  6: Frogs  7: Horses  8: Ships  9: Trucks 
 
@@ -33,7 +34,7 @@ DATASET: https://www.kaggle.com/c/cifar-10/   or https://www.cs.toronto.edu/~kri
 ![Capture](https://user-images.githubusercontent.com/46977634/76879312-fdfa8880-686d-11ea-9959-bad7980f65bb.JPG) 
 
 -----------------------------------------------------------------------------------------------------------------------------------
-# PROBELM STATEMENT : PROJECT 3. CLASSIFY GERMAN TRAFFIC SIGNS (LENET) USING CNNs - APPLICATION
+# PROJECT 3. CLASSIFY GERMAN TRAFFIC SIGNS (LENET) USING CNNs - APPLICATION
 •	The dataset contains 43 different classes of images. Classes are as listed below:
 •	( 0, b'Speed limit (20km/h)') ( 1, b'Speed limit (30km/h)')
 •	( 2, b'Speed limit (50km/h)') ( 3, b'Speed limit (60km/h)')
@@ -65,5 +66,27 @@ The network used is called Le-Net that was presented by Yann LeCun http://yann.l
 ![image](https://user-images.githubusercontent.com/46977634/76879502-40bc6080-686e-11ea-979d-fc800bbc3e2b.png)
 
 
-
 ![LENET-CM-Img](https://user-images.githubusercontent.com/46977634/71091924-09221780-219e-11ea-8515-1ca59788d7a9.JPG)
+
+-----------------------------------------------------------------------------------------------------------------------------------
+# PROJECT 4. CLASSIFY FASHION IMAGES (FASHION-MNIST) USING CNNs - APPLICATION
+Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.
+
+Each training and test example is assigned to one of the following labels:
+
+0 T-shirt/top
+1 Trouser
+2 Pullover
+3 Dress
+4 Coat
+5 Sandal
+6 Shirt
+7 Sneaker
+8 Bag
+9 Ankle boot
+DATASET: https://github.com/zalandoresearch/fashion-mnist
+DATASET was converted to CSV with this script: https://pjreddie.com/projects/mnist-in-csv/
+
+
+# RESULT AND SUMMARY: 
+
