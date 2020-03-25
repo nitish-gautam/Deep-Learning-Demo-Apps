@@ -89,4 +89,7 @@ DATASET was converted to CSV with this script: https://pjreddie.com/projects/mni
 
 
 # RESULT AND SUMMARY: 
+![image](https://user-images.githubusercontent.com/46977634/77553722-13defd80-6ead-11ea-8e79-6d71e073a268.png)
+![image](https://user-images.githubusercontent.com/46977634/77554004-6f10f000-6ead-11ea-8eec-e5fd799f803b.png)
+![image](https://user-images.githubusercontent.com/46977634/77553968-615b6a80-6ead-11ea-8934-73b1094df436.png)
 
