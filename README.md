@@ -21,8 +21,13 @@ PROJECT 5. CLASSIFY CUSTOM IMAGE CLASSIFICATION -APPLICATION
 
 -----------------------------------------------------------------------------------------------------------------------------------
 ### PROJECT 1. IMAGE CLASSIFICATION (MNIST-10) USING CNNs - APPLICATION
-The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. The digits have been size-normalized and centered in a fixed-size image. It is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. https://en.wikipedia.org/wiki/MNIST_database
-DATASET : http://yann.lecun.com/exdb/mnist/  
+The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. The digits have been size-normalized and centered in a fixed-size image. It is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively.
+
+```
+     https://en.wikipedia.org/wiki/MNIST_database
+     DATASET : http://yann.lecun.com/exdb/mnist/  
+     
+```
 
 ### RESULT AND SUMMARY: 
 (A) Model Summary, Confusion Matrix and  Prediction vs Actual reporting
@@ -36,7 +41,9 @@ CIFAR-10 is a dataset that consists of several images divided into the following
 
 The dataset stands for the Canadian Institute For Advanced Research (CIFAR) CIFAR-10 is widely used for machine learning and computer vision applications. The dataset consists of 50,000 32x32 color training images, labeled over 10 categories, and 10,000 test images.
 
+```
 DATASET: https://www.kaggle.com/c/cifar-10/   or https://www.cs.toronto.edu/~kriz/cifar.html
+```
 
 ### RESULT AND SUMMARY: 
 (A) Model Summary, confusion Metrix and Prediction vs Actual reporting
@@ -70,7 +77,10 @@ DATASET: https://www.kaggle.com/c/cifar-10/   or https://www.cs.toronto.edu/~kri
 •	(37, b'Go straight or left') (38, b'Keep right') (39, b'Keep left')
 •	(40, b'Roundabout mandatory') (41, b'End of no passing')
 •	(42, b'End of no passing by vehicles over 3.5 metric tons')
-The network used is called Le-Net that was presented by Yann LeCun http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
+The network used is called Le-Net that was presented by Yann LeCun 
+```
+http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
+```
 
 ### RESULT AND SUMMARY: 
 (A) Model Summary, confusion Metrix and Prediction vs Actual reporting
@@ -98,9 +108,10 @@ Each training and test example is assigned to one of the following labels:
 8 Bag
 9 Ankle boot
 
+```
 DATASET: https://github.com/zalandoresearch/fashion-mnist
-
 DATASET was converted to CSV with this script: https://pjreddie.com/projects/mnist-in-csv/
+```
 
 
 ### RESULT AND SUMMARY: 
