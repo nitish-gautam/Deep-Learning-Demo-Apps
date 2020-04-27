@@ -3,8 +3,11 @@ The intention here is to create a generic repositories which contain various pra
 
 # PRACTICAL DEMO APPLICATION PROJECTS
 PROJECT 1. IMAGE CLASSIFICATION (MNIST-10) USING CNNs - APPLICATION
+
 PROJECT 2. IMAGE CLASSIFICATION (CIFAR-10) USING CNNs - APPLICATION
+
 PROJECT 3. CLASSIFY GERMAN TRAFFIC SIGNS (LENET) USING CNNs - APPLICATION
+
 PROJECT 4. CLASSIFY FASHION IMAGES(FASHION-MNIST) USING CNNs - APPLICATION
 
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -23,6 +26,7 @@ CIFAR-10 is a dataset that consists of several images divided into the following
 0: Airplanes  1: Cars  2: Birds  3: Cats  4: Deer  5: Dogs  6: Frogs  7: Horses  8: Ships  9: Trucks 
 
 The dataset stands for the Canadian Institute For Advanced Research (CIFAR) CIFAR-10 is widely used for machine learning and computer vision applications. The dataset consists of 50,000 32x32 color training images, labeled over 10 categories, and 10,000 test images.
+
 DATASET: https://www.kaggle.com/c/cifar-10/   or https://www.cs.toronto.edu/~kriz/cifar.html
 
 # RESULT AND SUMMARY: 
@@ -84,7 +88,9 @@ Each training and test example is assigned to one of the following labels:
 7 Sneaker
 8 Bag
 9 Ankle boot
+
 DATASET: https://github.com/zalandoresearch/fashion-mnist
+
 DATASET was converted to CSV with this script: https://pjreddie.com/projects/mnist-in-csv/
 
 
